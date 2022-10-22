@@ -348,9 +348,9 @@ input[name="toggle"] {
     padding: .5rem .625rem;
 }
 
-#ui-component-toggle__monthly:checked ~,
+#ui-component-toggle__monthly:checked ~
 div label[for=ui-component-toggle__monthly],
-#ui-component-toggle__yearly:checked ~,
+#ui-component-toggle__yearly:checked ~
 div label[for=ui-component-toggle__yearly] {
     background-color: var(--ui-color-background-primary);
     color: var(--ui-color-typography-body);
@@ -636,7 +636,7 @@ div label[for=ui-component-toggle__yearly] {
     content: "$5";
 }
 
-#ui-component-toggle__yearly:checked ~ div,
+#ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-1::before {
     content: "$3";
 }
@@ -645,7 +645,7 @@ div label[for=ui-component-toggle__yearly] {
     content: "$15";
 }
 
-#ui-component-toggle__yearly:checked ~ div,
+#ui-component-toggle__yearly:checked ~ div
 .ui-component-card--pricing-amount-2::before {
     content: "$13";
 }
