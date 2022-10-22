@@ -457,12 +457,12 @@ div label[for=ui-component-toggle__yearly] {
     top: .6875rem;
 }
 
-#ui-section-header--menu-id:checked ~,
+#ui-section-header--menu-id:checked ~
 .ui-section-header--menu-icon::before {
     transform: translateY(3px) rotate(135deg);
 }
 
-#ui-section-header--menu-id:checked ~,
+#ui-section-header--menu-id:checked ~
 .ui-section-header--menu-icon::after {
     transform: translateY(-3px) rotate(45deg);
 }
@@ -484,7 +484,7 @@ div label[for=ui-component-toggle__yearly] {
     visibility: hidden;
 }
 
-#ui-section-header--menu-id:checked ~,
+#ui-section-header--menu-id:checked ~
 .ui-section-header--nav {
     opacity: 1;
     top: 0;
